@@ -1,0 +1,23 @@
+{
+	"name": "typedoc-hierarchy-reproduction",
+	"version": "0.0.1",
+	"description": "Reproduction for TypeDoc bug. Issue #2486 (https://github.com/TypeStrong/typedoc/issues/2486).",
+	"type": "module",
+	"scripts": {
+		"docs": "npx typedoc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DmitrySharabin/typedoc-hierarchy-reproduction"
+	},
+	"keywords": [
+		"typedoc",
+		"reproduction"
+	],
+	"author": "Dmitry Sharabin <dmitrysharabin@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"typedoc": "latest",
+		"typedoc-plugin-merge-modules": "latest"
+	}
+}

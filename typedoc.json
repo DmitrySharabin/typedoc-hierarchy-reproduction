@@ -1,0 +1,8 @@
+{
+	"name": "TypeDoc Hierarchy Reproduction",
+	"plugin": ["typedoc-plugin-merge-modules"],
+	"mergeModulesRenameDefaults": true,
+	"mergeModulesMergeMode": "module",
+	"entryPoints": ["src/*.js"],
+	"out": "docs"
+}
